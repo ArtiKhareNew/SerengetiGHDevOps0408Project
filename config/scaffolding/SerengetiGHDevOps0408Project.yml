@@ -20,6 +20,7 @@ packages:
   gitUsername: ArtiKhareNew
   gitBranch: main
 - name: SubstractPublicSvcPackage
+  version: "4.0"
   gitServerName: srcCtrl_shared_AzRepos_Arti
   gitUrl: https://dev.azure.com/ArtiKhare/SubstractPublicSvcPackage/_git
   gitUsername: ArtiKhare
@@ -29,16 +30,16 @@ services:
   packages:
   - name: SerengetiGHDevOps0408Project
     version: "1.0"
-  - name: SubstractPublicSvcPackage
-    version: "3.0"
   - name: XMLServices12_0_4
     version: "2.0"
+  - name: SubstractPublicSvcPackage
+    version: "4.0"
   - name: MultiplyPublicService
     version: "6.0"
 - serviceName: SubstractPublicSvcPackage:substract_svc
   packages:
   - name: SubstractPublicSvcPackage
-    version: "3.0"
+    version: "4.0"
 - serviceName: pub.math:subtractInts
   packages:
   - name: WmPublic
@@ -47,10 +48,10 @@ services:
   packages:
   - name: SerengetiGHDevOps0408Project
     version: "1.0"
-  - name: SubstractPublicSvcPackage
-    version: "3.0"
   - name: XMLServices12_0_4
     version: "2.0"
+  - name: SubstractPublicSvcPackage
+    version: "4.0"
   - name: MultiplyPublicService
     version: "6.0"
 - serviceName: pub.client:http
@@ -69,10 +70,10 @@ services:
   packages:
   - name: SerengetiGHDevOps0408Project
     version: "1.0"
-  - name: SubstractPublicSvcPackage
-    version: "3.0"
   - name: XMLServices12_0_4
     version: "2.0"
+  - name: SubstractPublicSvcPackage
+    version: "4.0"
   - name: MultiplyPublicService
     version: "6.0"
 - serviceName: xmlServices12_0_4:xmlFlexCascade
