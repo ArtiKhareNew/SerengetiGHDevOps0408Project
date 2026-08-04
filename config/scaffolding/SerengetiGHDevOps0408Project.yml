@@ -14,12 +14,97 @@ packages:
   gitUsername: artikhare
   gitBranch: main
 - name: SubstractPublicSvcPackage
+  version: "3.0"
   gitServerName: srcCtrl_shared_AzRepos_Arti
   gitUrl: https://dev.azure.com/ArtiKhare/_git
   gitUsername: ArtiKhare
   gitBranch: main
 - name: XMLServices12_0_4
+  version: "2.0"
   gitServerName: srcGithubCtrl_Arti
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+services:
+- serviceName: project.serengetighdevops0408.integrations:azrepoPackage
+  packages:
+  - name: SerengetiGHDevOps0408Project
+    version: "1.0"
+  - name: SubstractPublicSvcPackage
+    version: "3.0"
+  - name: XMLServices12_0_4
+    version: "2.0"
+  - name: MultiplyPublicService
+    version: "6.0"
+- serviceName: SubstractPublicSvcPackage:substract_svc
+  packages:
+  - name: SubstractPublicSvcPackage
+    version: "3.0"
+- serviceName: pub.math:subtractInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: project.serengetighdevops0408.integrations:est_xmlStringToXMLNode_filedata
+  packages:
+  - name: SerengetiGHDevOps0408Project
+    version: "1.0"
+  - name: SubstractPublicSvcPackage
+    version: "3.0"
+  - name: XMLServices12_0_4
+    version: "2.0"
+  - name: MultiplyPublicService
+    version: "6.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:xmlStringToXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:xmlNodeToDocument
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: project.serengetighdevops0408.integrations:xml
+  packages:
+  - name: SerengetiGHDevOps0408Project
+    version: "1.0"
+  - name: SubstractPublicSvcPackage
+    version: "3.0"
+  - name: XMLServices12_0_4
+    version: "2.0"
+  - name: MultiplyPublicService
+    version: "6.0"
+- serviceName: xmlServices12_0_4:xmlFlexCascade
+  packages:
+  - name: XMLServices12_0_4
+    version: "2.0"
+- serviceName: pub.xml:getXMLNodeType
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:getXMLNodeIterator
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:getNextXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:freeXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:xmlStringToEnhancedXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:queryXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
+- serviceName: pub.xml:documentToXMLString
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
