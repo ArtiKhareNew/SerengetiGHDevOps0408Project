@@ -13,3 +13,8 @@ packages:
   gitUrl: https://bitbucket.org/testartiibm
   gitUsername: artikhare
   gitBranch: main
+- name: SubstractPublicSvcPackage
+  gitServerName: srcCtrl_shared_AzRepos_Arti
+  gitUrl: https://dev.azure.com/ArtiKhare/_git
+  gitUsername: ArtiKhare
+  gitBranch: main
