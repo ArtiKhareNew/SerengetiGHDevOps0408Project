@@ -13,18 +13,17 @@ packages:
   gitUrl: https://bitbucket.org/testartiibm
   gitUsername: artikhare
   gitBranch: main
-- name: SubstractPublicSvcPackage
-  version: "3.0"
-  gitServerName: srcCtrl_shared_AzRepos_Arti
-  gitUrl: https://dev.azure.com/ArtiKhare/_git
-  gitUsername: ArtiKhare
-  gitBranch: main
 - name: XMLServices12_0_4
   version: "2.0"
   gitServerName: srcGithubCtrl_Arti
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+- name: SubstractPublicSvcPackage
+  gitServerName: srcCtrl_shared_AzRepos_Arti
+  gitUrl: https://dev.azure.com/ArtiKhare/SubstractPublicSvcPackage/_git
+  gitUsername: ArtiKhare
+  gitBranch: secondbranch
 services:
 - serviceName: project.serengetighdevops0408.integrations:azrepoPackage
   packages:
