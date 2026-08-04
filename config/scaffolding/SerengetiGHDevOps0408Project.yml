@@ -18,3 +18,8 @@ packages:
   gitUrl: https://dev.azure.com/ArtiKhare/_git
   gitUsername: ArtiKhare
   gitBranch: main
+- name: XMLServices12_0_4
+  gitServerName: srcGithubCtrl_Arti
+  gitUrl: https://github.com/ArtiKhareNew
+  gitUsername: ArtiKhareNew
+  gitBranch: main
